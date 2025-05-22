@@ -1,4 +1,35 @@
-.full-height{ 
+body {
+    background-color: #fbe97f;
+  }
+  header {
+    background-color: #fbe97f;
+    border-bottom: 3px solid red;
+  }
+  .navbar-nav .nav-link {
+    font-weight: bold;
+  }
+  .portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: white;
+  }
+  .portfolio-text {
+    flex: 1;
+    padding: 2rem;
+  }
+  .portfolio-image {
+    flex: 1;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/ROC_Mondriaan_-_Vestiging_Leiden.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 300px;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .height{ 
     height: 70vh;
-    
-}
+  }
