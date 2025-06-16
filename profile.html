@@ -11,26 +11,47 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
   <header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col border bg-yellow text-center">
-          <h3 class="text-center fw-bold">Joshua's portfolio</h3>
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid justify-content-center">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-                <li class="nav-item"><a class="nav-link" href="projects.html">projecten</a></li>
-                <li class="nav-item"><a class="nav-link" href="carreers.html">Career</a></li>
-                <li class="nav-item"><a class="nav-link" href="adademic.html">Academic</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-              </ul>
-          </nav>
+    <nav class="navbar navbar-expand-lg bg-yellow">
+      <div class="container-fluid bg-yellow font-bold">
+        <a class="navbar-brand bg-yellow" href="#">Joshua portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="profile.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">projects</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="inspirations.html">Inspiraties</a></li>
+                <li><a class="dropdown-item" href="color-them.html">Kleurschema</a></li>
+                <li>
+                </li>
+            </li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carreers.html">Carreers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adademic.html">Academic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+            </ul>
         </div>
+      </div>
+    </nav>
   </header>
   <div class="container-fluid">
     <div class="row">
@@ -56,6 +77,6 @@
     </div>
   </div>
 
-</body>
+  </body>
 
 </html>
